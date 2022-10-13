@@ -152,12 +152,18 @@
     .new{
         width":100vw;
     }
-    #navbar{
+    #navbar.another{
         min-width:0;
         width:0;
     }
+    .another{
+        min-width:125px;
+    }
     .container{
         display:block;
+    }
+    .container.another{
+        display:none;
     }
 }
     
